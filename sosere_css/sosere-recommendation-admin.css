@@ -1,0 +1,73 @@
+/* admin page */
+h2.sosere  {
+	background: url('../sosere_img/sosere-logo30x30.png') no-repeat  scroll 0 10px;
+	padding-left: 40px !important;
+	padding-bottom: 5px !important;
+}
+
+.admininput{
+	float: left;
+	min-width: 30%;
+}
+
+.admininfo {
+	float: left;
+	max-width: 70%;
+}
+
+.settings_list_box {
+	float: left;
+	width: 40%;
+}
+
+.settings_list_box  .right-box{
+	margin-left: 10%;
+}
+
+#default_thumbnail_img {
+	float: left;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#default_thumb_button {
+	margin-left: 20px;
+}
+
+
+#settings_list_include_tags {
+	border: 1px solid #BBBBBB;
+	background-color: #EEEEEE;
+	height: 250px;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#settings_list_include_tags p {
+		background-color: #DDDDDD;
+		color: #666666;
+	}
+#settings_list_include_tags p:hover {
+		background-color: #999999;
+		color: #111111;
+		cursor: pointer;
+	}
+
+#settings_list_exclude_tags {
+	border: 1px solid #BBBBBB;
+	margin-left: 10%;
+	background-color: #EEEEEE;
+	height: 250px;
+	
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#settings_list_exclude_tags p {
+		background-color: #DDDDDD;
+		color: #666666;
+	}
+#settings_list_exclude_tags p:hover {
+		background-color: #999999;
+		color: #111111;
+		cursor: pointer;
+	}

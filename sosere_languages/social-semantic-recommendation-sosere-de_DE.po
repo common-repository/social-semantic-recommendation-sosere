@@ -1,0 +1,526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sosere-rec 2.5\n"
+"POT-Creation-Date: 2018-06-22 18:09+0200\n"
+"PO-Revision-Date: 2018-06-22 18:12+0200\n"
+"Last-Translator: bluros <translations@sosere.com>\n"
+"Language-Team: sosere <translatios@sosere.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;//__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .svn\n"
+
+#: social-semantic-recommendation-sosere.php:34
+msgid ""
+"SOSERE displays a list or thumbnails of related entries at the bottom of a "
+"post based on an unique, self-learning, socialsemantic analysis algorithm. "
+"It is efficient and fits perfect to each post individually."
+msgstr ""
+"SOSERE zeigt automatisch eine verlinkte Liste oder Thumbnails von verwandten "
+"Beiträgen unterhalb eines Artikels/Seite an. Die Auswahl erfolgt dabei mit "
+"einem einzigartigen, selbstlernendem soziosemantischen Algorithmus. "
+"Effizient und Datenschutzkonform werden für jeden Beitrag individuell "
+"perfekt passende Empfehlungen erzeugt."
+
+#: sosere_lib/sosere-admin.php:99
+msgid "Settings Admin"
+msgstr "Einstellungen"
+
+#: sosere_lib/sosere-admin.php:159 sosere_lib/sosere-controller.php:399
+msgid "Recommended for you"
+msgstr "Das könnte dich auch interessieren"
+
+#: sosere_lib/sosere-admin.php:170
+msgid "Display Settings"
+msgstr "Anzeige-Einstellungen"
+
+#: sosere_lib/sosere-admin.php:171
+msgid "Selection Settings"
+msgstr "Auswahl-Einstellungen"
+
+#: sosere_lib/sosere-admin.php:172
+msgid "Performance Settings"
+msgstr "Performance-Einstellungen"
+
+#: sosere_lib/sosere-admin.php:197
+msgid "Recommendations box title"
+msgstr "Überschrift der Empfehlungsbox"
+
+#: sosere_lib/sosere-admin.php:205
+msgid "Count of recommended posts per page/post"
+msgstr "Empfehlungsanzahl pro Artikel/Seite"
+
+#: sosere_lib/sosere-admin.php:213
+msgid "Show recommendations with thumbs"
+msgstr "Zeige Empfehlungen mit Thumbnails"
+
+#: sosere_lib/sosere-admin.php:221
+msgid "Custom recommendations thumb size"
+msgstr "Benutzerdefinierte Empfehlungen Thumbnail-Größe"
+
+#: sosere_lib/sosere-admin.php:230
+msgid "Default thumbnail"
+msgstr "Standard Thumbnail"
+
+#: sosere_lib/sosere-admin.php:238
+msgid "Use custom css"
+msgstr "Benutze benutzerdefiniertes CSS"
+
+#: sosere_lib/sosere-admin.php:246
+msgid "Hide recommendations"
+msgstr "Blende Empfehlungen aus"
+
+#: sosere_lib/sosere-admin.php:254
+msgid "Post types"
+msgstr "Beitragstypen"
+
+#: sosere_lib/sosere-admin.php:270
+msgid "Consider posts/pages viewed for (days)"
+msgstr "Beachte Artikel/Seiten, die maximal vor x Tagen angesehen wurden."
+
+#: sosere_lib/sosere-admin.php:278
+msgid "Consider posts/pages not older than (days)"
+msgstr "Beachte Artikel/Seiten, die nicht älter als x Tage sind."
+
+#: sosere_lib/sosere-admin.php:287
+msgid "Data Source"
+msgstr "Datenquellen"
+
+#: sosere_lib/sosere-admin.php:295
+msgid "Include pages and custom types"
+msgstr "Verwende Seiten und benutzerdefinierte Seitentypen"
+
+#: sosere_lib/sosere-admin.php:303
+msgid "Exclude tags"
+msgstr "Von Empfehlungen ausgeschlossene Tags"
+
+#: sosere_lib/sosere-admin.php:321
+msgid "Use SOSERE output cache"
+msgstr "Verwende SOSERE Ausgabe-Cache"
+
+#: sosere_lib/sosere-admin.php:329
+msgid "Max Cache Time (hours)"
+msgstr "Maximale Caching-Dauer in Stunden"
+
+#: sosere_lib/sosere-admin.php:483
+msgid ""
+"Caching increases your blog performance by storing output in database for a "
+"period of time, while SOSERE doesn't have to generate it each time. It has "
+"no effect on other caching plugins but leave it unchecked if you are using "
+"another caching plugin."
+msgstr ""
+"Caching erhöht die Blog-Performance. Es speichert die Ausgabe für eine "
+"festgelegte Dauer in der Datenbank und generiert Empfehlungen dadurch nicht "
+"bei jedem Aufruf neu. Diese Option hat keinen Einfluss auf andere Caching-"
+"Plugins. Wenn Sie Andere verwenden, deaktivieren Sie SOSERE Cache."
+
+#: sosere_lib/sosere-admin.php:497
+msgid ""
+"Define here how long SOSERE output should be cached before it would be "
+"regenerated."
+msgstr ""
+"Gebe Sie an, wie lange SOSERE die Ausgabe speichern soll, bevor es neu "
+"generiert wird."
+
+#: sosere_lib/sosere-admin.php:514
+msgid "Title list"
+msgstr "Titelliste"
+
+#: sosere_lib/sosere-admin.php:517
+msgid "Thumbnail and title"
+msgstr "Thumbnail und Titel"
+
+#: sosere_lib/sosere-admin.php:520
+msgid "Thumbnail only"
+msgstr "Nur Thumbnail"
+
+#: sosere_lib/sosere-admin.php:542
+msgid "default (150x150 px)"
+msgstr "Standard (150x150 px)"
+
+#: sosere_lib/sosere-admin.php:568
+msgid "Choose a custom thumbnail size."
+msgstr "Wählen Sie eine benutzerdefinierte Thumbnail-Größe bei Empfehlungen."
+
+#: sosere_lib/sosere-admin.php:592
+msgid ""
+"Choose a default thumbnail image. It will be shown if you use thumbnails for "
+"recommendations and a recommended article has no thumbnail."
+msgstr ""
+"Wählen Sie ein Standard-Thumbnail Bild. Es wird angezeigt, wenn Sie "
+"Thumbnails verwenden, aber ein empfohlener Artikel kein Thumbnail besitzt."
+
+#: sosere_lib/sosere-admin.php:594
+msgid ""
+"This option requires Wordpress 3.5 or newer. Update Wordpress if you want to "
+"use it."
+msgstr ""
+"Diese Option benötigt Wordpress 3.5 oder neuer. Aktualisiere Sie ihre "
+"Wordpress-Installation um es zu verwenden."
+
+#: sosere_lib/sosere-admin.php:609
+msgid ""
+"Check this box if you want to use custom css definitions in sosere-"
+"recommendation-custom.css"
+msgstr ""
+"Aktiviere Sie diese Option, wenn Sie benutzerdefinierte CSS in sosere-"
+"recommendation-custom.css verwenden"
+
+#: sosere_lib/sosere-admin.php:623
+msgid ""
+"SOSERE uses categories, tags and user behaviour data for recommendations. It "
+"takes up to 6 weeks to collect enough data for a usable network. You can "
+"activate the plugin, let it learn and hide the output. Useful also for A/B "
+"testing."
+msgstr ""
+"SOSERE bezieht Kategorien, Tags und das Benutzerverhalten bei Empfehlungen "
+"ein. Es kann bis zu 6 Wochen dauern, bis genügend Daten für ein verwendbares "
+"Netzwerk gesammelt werden konnten. Sie können das Plugin aktivieren, lernen "
+"lassen und die Ausgabe ausblenden. Nützlich auch für A/B Testing."
+
+#: sosere_lib/sosere-admin.php:645
+msgid ""
+"By default SOSERE shows recommendations on posts but not on (custom) pages. "
+"Select page types to show recommendations on."
+msgstr ""
+"Standardmäßig werden Empfehlungen bei Artikel, aber nicht auf "
+"(benutzerdefinierten) Seiten angezeigt. Aktivieren Sie diese Option, wenn "
+"auch Seiten und benutzerdefinierten Seitentypen berücksichtigt werden sollen."
+
+#: sosere_lib/sosere-admin.php:661
+msgid ""
+"By default SOSERE considering posts but not (custom) pages for "
+"recommendations. Check this box if you like pages and custom page types to "
+"be considered for reccomdations too."
+msgstr ""
+"Standardmäßig werden Artikel, aber nicht auf (benutzerdefinierten) Seiten "
+"für Empfehlungen benutzt. Aktivieren Sie diese Option, wenn auch Seiten und "
+"benutzerdefinierten Seitentypen berücksichtigt werden sollen."
+
+#: sosere_lib/sosere-admin.php:688
+msgid ""
+"By default, SOSERE uses tags, categories and user behavior to make "
+"recommendations. Session cookies are used to capture user behavior. If you "
+"uncheck session no cookies will be set by SOSERE."
+msgstr ""
+"Standardmäßig benutzt SOSERE Tags, Kategorien und Nutzerverhalten um "
+"Empfehlungen zu erstellen. Für das Erfassen des Nutzerverhaltens werden "
+"Sitzungscookies (session) verwendet. Hacke das aus falls keine keine Cookies "
+"gesetzt werden sollen."
+
+#: sosere_lib/sosere-admin.php:699
+msgid "Add a custom localized recommendation box title for each used language."
+msgstr ""
+"Geben Sie eine sprachspezifische Überschrift der Empfehlungsbox für jede "
+"verwendete Sprache ein."
+
+#: sosere_lib/sosere-admin.php:709
+msgid "(default)"
+msgstr "(Standart)"
+
+#: sosere_lib/sosere-admin.php:762
+msgid "Choose the maximum count of recommended posts."
+msgstr "Wählen Sie die maximale Anzahl der empfohlenen Artikel pro Seite."
+
+#: sosere_lib/sosere-admin.php:775
+msgid ""
+"User behaviour is the basis of recommendations. How old may considered user "
+"actions be? Default is 30 days."
+msgstr ""
+"Das Benutzerverhalten wird bei Empfehlungen mit einbezogen. Wie alt sollen "
+"berücksichtigte Benutzeraktionen sein? Standard sind 30 Tage."
+
+#: sosere_lib/sosere-admin.php:787
+msgid ""
+"How old may recommended posts be? Put 0 in for no age limit. Default is 1000 "
+"days."
+msgstr ""
+"Wie alt dürfen empfohlene Artikel sein? Tragen Sie 0 für keine "
+"Altersbeschränkung ein. Standard sind 0 Tage."
+
+#: sosere_lib/sosere-admin.php:799
+msgid ""
+"Move tags by drag and drop from \"Included tags\" list to \"Excluded tags\" "
+"list to exclude them from being considered."
+msgstr ""
+"Verschieben Sie Tags aus  \"Einbezogene Tags\" Liste in die "
+"\"Ausgeschlossene Tags\" Liste um sie von Empfehlungen auszuschließen."
+
+#: sosere_lib/sosere-admin.php:802
+msgid "Included tags"
+msgstr "Einbezogene Tags"
+
+#: sosere_lib/sosere-admin.php:825
+msgid "Excluded tags"
+msgstr "Ausgeschlossene Tags"
+
+#: sosere_lib/sosere-admin.php:927
+msgid ""
+"Thank you for activating SOSERE. It is free software. <a href=\"https://www."
+"paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NUQWN3PZ7Y296\">Buy "
+"us some coffee</a> and support continuous improvement of <a href=\"http://"
+"www.sosere.com\">SOSERE</a>."
+msgstr ""
+"Danke für die Aktivierung von SOSERE. Es ist freie Software. <a href="
+"\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
+"xclick&hosted_button_id=G4TBLTL3AWZ6U\">Kaufe uns ein paar Kaffees</a> und "
+"unterstütze damit die kontinuierliche Weiterentwicklung von <a href=\"http://"
+"www.sosere.com\">SOSERE</a>."
+
+#: sosere_lib/sosere-admin.php:987
+msgid ""
+"Thank you for updating SOSERE. It is free software. <a href=\"https://www."
+"paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NUQWN3PZ7Y296\">Buy "
+"us some coffee</a> and support continuous improvement of <a href=\"http://"
+"www.sosere.com\">SOSERE</a>."
+msgstr ""
+"Danke für die Benutzung von SOSERE. Es ist freie Software. <a href=\"https://"
+"www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G4TBLTL3AWZ6U"
+"\">Kaufe uns ein paar Kaffees</a> und unterstütze damit die kontinuierliche "
+"Weiterentwicklung von <a href=\"http://www.sosere.com\">SOSERE</a>."
+
+#: sosere_lib/sosere-admin.php:1011
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid "Exclude recommended entries"
+#~ msgstr "Von Empfehlungen ausgeschlossenen Einträge"
+
+#~ msgid "Hide recommendations at the bottom of an entry"
+#~ msgstr "Blende Empfehlungen bei Beiträgen aus"
+
+#~ msgid "Collect data asynchronously"
+#~ msgstr "Asynchrone Datensammlung"
+
+#~ msgid "Clear SOSERE cache"
+#~ msgstr "Leere SOSERE Cache."
+
+#~ msgid "Clear SOSERE network data"
+#~ msgstr "Lösche SOSERE Netzwek-Daten."
+
+#~ msgid ""
+#~ "If activated, SOSERE collect user behavioural data through caching "
+#~ "systems and plugins. Check it if you are using non SOSERE caching."
+#~ msgstr ""
+#~ "Wenn diese Option aktiviert ist, sammelt SOSERE asynchron Besucher Daten "
+#~ "durch Caching-Plugins und Systeme. Verwenden Sie es, falls nicht SOSERE "
+#~ "Caching aktiv ist."
+
+#~ msgid "Clear SOSERE output cache."
+#~ msgstr "Leere SOSERE Ausgabe-Cache"
+
+#~ msgid "Clear SOSERE posts view network data."
+#~ msgstr "Lösche SOSERE Netzwek-Daten."
+
+#~ msgid ""
+#~ "Move entries by drag and drop from \"Included entries\" list to "
+#~ "\"Excluded entries\" list to exclude them from being recommended."
+#~ msgstr ""
+#~ "Verschieben Sie Beiträge aus  \"Einbezogene Einträge\" Liste in die "
+#~ "\"Ausgeschlossene Einträge\" Liste um sie von Empfehlungen auszuschließen."
+
+#~ msgid "Included entries"
+#~ msgstr "Einbezogene Einträge"
+
+#~ msgid "Excluded entries"
+#~ msgstr "Ausgeschlossene Einträge"
+
+#~ msgid ""
+#~ "Move entries by drag and drop from \"Included entries\" list to "
+#~ "\"Excluded entries\" list to exclude them from showing recommendations."
+#~ msgstr ""
+#~ "Verschieben Sie Beiträge aus  \"Einbezogene Einträge\" Liste in die "
+#~ "\"Ausgeschlossene Einträge\" Liste um keine Empfehlungen auf ihnen "
+#~ "anzuzeigen."
+
+#~ msgid "Thank you for using <a href=\"http://www.sosere.com\">SOSERE</a>."
+#~ msgstr ""
+#~ "Danke für die Verwendung von <a href=\"http://www.sosere.com\">SOSERE</a>."
+
+#~ msgid "Thank you for updating <a href=\"http://www.sosere.com\">SOSERE</a>."
+#~ msgstr ""
+#~ "Danke für die Aktualisierung von <a href=\"http://www.sosere.com"
+#~ "\">SOSERE</a>."
+
+#~ msgid "SOSERE cache cleared."
+#~ msgstr "SOSERE Cache gelöscht."
+
+#~ msgid "Unable to clear SOSERE cache."
+#~ msgstr "Löschen des SOSERE Ausgabe-Caches fehlgeschlagen."
+
+#~ msgid "SOSERE post network data cleared."
+#~ msgstr "SOSERE Netzwek-Daten gelöscht."
+
+#~ msgid "Unable to clear SOSERE post network data."
+#~ msgstr "Löschen der SOSERE Netzwek-Daten fehlgeschlagen."
+
+#~ msgid ""
+#~ "Type in a recommendation box title like \"Recommended for you:\" or \"You "
+#~ "could also be interested in:\"."
+#~ msgstr ""
+#~ "Geben Sie eine Überschrift für die Empfehlungsbox, wie \"Empfehlungen für "
+#~ "dich\" oder \"Das könnte dich auch interessieren\", ein. "
+
+#~ msgid "View Settings"
+#~ msgstr "Anzeige-Einstellungen"
+
+#~ msgid "This option is only available with the A or E edition."
+#~ msgstr "Diese Option ist nur in der A oder E Edition verfügbar."
+
+#~ msgid "Basic Settings"
+#~ msgstr "Basiseinstellungen"
+
+#~ msgid "SOSERE Basic settings:"
+#~ msgstr "SOSERE Basis-Einstellungen:"
+
+#~ msgid "Select display settings:"
+#~ msgstr "Bearbeite Anzeige-Einstellungen"
+
+#~ msgid "Select recommendation settings:"
+#~ msgstr "Bearbeite Empfehlungs-Einstellungen"
+
+#~ msgid "Donate"
+#~ msgstr "Spenden"
+
+#~ msgid ""
+#~ "Caching increases your blog performance by storing output in database for "
+#~ "a period of time, while SSOSERE doesn't have to generate it each time. It "
+#~ "has no effect on other caching plugins but leave it unchecked if you are "
+#~ "using another caching plugin."
+#~ msgstr ""
+#~ "Caching erhöht die Blog-Performance. Es speichert die Ausgabe für eine "
+#~ "festgelegte Dauer in der Datenbank und generiert Empfehlungen dadurch "
+#~ "nicht bei jedem Aufruf neu. Diese Option hat keinen Einfluss auf andere "
+#~ "Caching-Plugins. Wenn Sie Andere verwenden, deaktivieren Sie SOSERE Cache."
+
+#~ msgid ""
+#~ "Select or deselect posts/pages where recommendations should not be shown."
+#~ msgstr ""
+#~ "Wählen SIe Artikel/Seiten aus, auf welchen keine Empfehlungen angezeigt "
+#~ "werden sollen."
+
+#~ msgid ""
+#~ "Select or deselect posts/pages which should be excluded from "
+#~ "recommendations."
+#~ msgstr "Wählen Sie Artikel/Seiten aus, die nicht empfohlen weden sollen."
+
+#~ msgid "This option is only available with the Pro or Enterprise edition."
+#~ msgstr "Diese Option ist nur in der Pro oder Enterprise Edition verfügbar."
+
+#~ msgid "Use cache independent user data collection "
+#~ msgstr "Benutze chaching-unabhängiges Datensammeln"
+
+#~ msgid ""
+#~ "Collect user data throws caching systems like Varnish. Respects also \"Do-"
+#~ "Not-Track\" browser-settings."
+#~ msgstr ""
+#~ "Sammelt Benutzer Aktionen durch Caching-Systeme wie Varnish. "
+#~ "Berücksichtigt auch \"Do-Not-Track\" Browsereinstellungen."
+
+#~ msgid "Custom css class "
+#~ msgstr "Benutzerdefinierte CSS-Klasse"
+
+#~ msgid "Insert a custom css class for the recommendation box."
+#~ msgstr "Geben Sie eine benutzerdefinierte CSS-Klasse ein."
+
+#~ msgid "Custom localized recommendation box title "
+#~ msgstr "Sprachspezifische Überschrift der Empfehlungsbox"
+
+#~ msgid ""
+#~ "Add a custom localized recommendation box title for each language. Locale "
+#~ "ID string have to be in language_COUNTRY format, like en_US."
+#~ msgstr ""
+#~ "Fügen Sie eine sprachspezifische Überschrift der Empfehlungsbox für jede "
+#~ "gewünschte Sprache ein. Locale ID muss im Format sprache_LAND, wie z. B. "
+#~ "en_US, sein."
+
+#, fuzzy
+#~ msgid "General Settings"
+#~ msgstr "Anzeige-Einstellungen"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Titelliste"
+
+#, fuzzy
+#~ msgid "Other Setting:"
+#~ msgstr "Anzeige-Einstellungen"
+
+#~ msgid ""
+#~ "Add a custom localized recommendation box title for each language. Locale "
+#~ "ID string have to be in language_COUNTRY format, e.q. en_US."
+#~ msgstr ""
+#~ "Fügen Sie eine sprachspezifische Überschrift der Empfehlungsbox für jede "
+#~ "gewünschte Sprache ein. Locale ID muss im Format sprache_LAND, wie z. B. "
+#~ "en_US, sein."
+
+#~ msgid "Exclude entries"
+#~ msgstr "Von Empfehlungen ausgeschlossene Artikel/Seiten"
+
+#~ msgid ""
+#~ "Caching increase your blog performance. It has no effect on other caching "
+#~ "plugins but leave it unchecked, if you are using another caching plugin."
+#~ msgstr ""
+#~ "Caching erhöht die Blogperformance. Es hat keinen Einfluss auf andere "
+#~ "Caching-Plugins. Wenn Sie Andere verwenden, deaktivieren Sie SOSERE Cache."
+
+#~ msgid ""
+#~ "Choose a default thumbnail image. It will be shown, if you use thumbnails "
+#~ "for recommendations and a recommended article has no thumbnail."
+#~ msgstr ""
+#~ "Wählen Sie ein Standard-Thumbnail Bild. Es wird angezeigt, wenn Sie "
+#~ "Thumbnails verwenden, aber ein empfohlener Artikel kein Thumbnail besitzt."
+
+#~ msgid ""
+#~ "This option requires Wordpress 3.5 or newer. Update Wordpress, if you "
+#~ "want to use it."
+#~ msgstr ""
+#~ "Diese Option benötigt Wordpress 3.5 oder neuer. Aktualisiere Sie ihre "
+#~ "Wordpress-Installation um es zu verwenden."
+
+#~ msgid ""
+#~ "SOSERE uses categories, tags but also user behaviour data for "
+#~ "recommendations. It takes up to 6 weeks to collect enough data for an "
+#~ "usable network. You can activate the plugin, let it learn, and hide the "
+#~ "output. Useful also for A/B testing."
+#~ msgstr ""
+#~ "SOSERE bezieht Kategorien, Tags und das Benutzerverhalten bei "
+#~ "Empfehlungen ein. Es kann bis zu 6 Wochen dauern, bis genügend Daten für "
+#~ "ein verwendbares Netzwerk gesammelt werden konnten. Sie können das Plugin "
+#~ "aktivieren, lernen lassen und die Ausgabe ausblenden. Nützlich auch für A/"
+#~ "B Testing."
+
+#~ msgid ""
+#~ "By default SOSERE shows recommendations on posts but not on (custom) "
+#~ "pages. Check this box, if you like to show recommendations on pages and "
+#~ "custom page types too."
+#~ msgstr ""
+#~ "Standardmäßig werden Empfehlungen bei Artikel, aber nicht auf "
+#~ "(benutzerdefinierten) Seiten angeteigt. Setze Sie hier einen Haken, wenn "
+#~ "auch Seiten und benuterdefinierten Seitentypen berücksichtigt werden "
+#~ "sollen. "
+
+#~ msgid ""
+#~ "Type in a recommendation box title like \"Recommended for you:\" or \"You "
+#~ "could also be interested in:\""
+#~ msgstr ""
+#~ "Geben Sie eine Überschrift für die Empfehlungsbox, wie \"Empfehlungen für "
+#~ "dich\" oder \"Das könnte dich auch interessieren\", ein. "
+
+#~ msgid ""
+#~ "User behaviour is used for recommendations. How old may considered user "
+#~ "actions be? Default is 30 days."
+#~ msgstr ""
+#~ "Das Benutzerverhalten wird bei Empfehlungen mit einbezogen. Wie alt "
+#~ "sollen berücksichtigte Benutzeraktionen sein? Standard sind 30 Tage."
+
+#, fuzzy
+#~ msgid "Clear all output cache"
+#~ msgstr "Verwende SOSERE Ausgabe-Cache"
